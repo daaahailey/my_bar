@@ -1,0 +1,20 @@
+
+.search_div {
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_field {
+    width: 240px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    border: 0px solid;
+    border-radius: 0;
+}
+
+.search_field:focus {
+    outline: none;
+}

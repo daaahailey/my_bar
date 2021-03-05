@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+.scroll-to-top { 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.upButton{ 
+    position: fixed;
+    bottom: 0.4rem;
+    right: 0.4rem;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: black;
+    margin: 1%;
+    box-shadow: 0 3px 15px -2px;
+    transition-duration: .1s;
+}
+
+.upButton:active{
+    transform: scale(.9);
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14%;
+    font-size: 38px;
+    color: black;
+    font-family: 'Londrina Outline', cursive;
+    font-weight: 600;
+    color: #ff4da6;
+    transform: rotate(-15deg);
+}

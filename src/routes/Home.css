@@ -1,0 +1,9 @@
+.home_container {
+    max-width: 100%;
+    margin-top: 24%;
+}
+
+.home_container .main_img {
+    width: 100%;
+    object-fit: cover;
+}
