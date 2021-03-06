@@ -12,9 +12,20 @@
     background-color: white;
     font-size: 16px;
     border: 0px solid;
+    outline: none;
     border-radius: 0;
+    
 }
 
 .search_field:focus {
     outline: none;
+    border: 0px solid;
+    border-radius: 0;
+}
+
+/* this removes input border styling on ios */
+
+input[type="search"] {
+    -webkit-appearance: none !important;
+    border-radius:0px;
 }

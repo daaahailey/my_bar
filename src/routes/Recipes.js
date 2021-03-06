@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
-// import Cocktail from "../components/Cocktail";
-
 import CocktailList from "../components/CocktailList";
 import SearchBox from "../components/SearchBox";
-import "./Recipes.css";
-import Cocktail from "../components/Cocktail";
 
 
 class Recipes extends Component {
