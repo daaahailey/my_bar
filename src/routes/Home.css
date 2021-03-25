@@ -1,9 +1,14 @@
 .home_container {
     max-width: 100%;
-    margin-top: 24%;
+    display: flex;
+    justify-content: center;
 }
 
-.home_container .main_img {
+.img_container {
+    width: 500px;
+}
+
+.img_container .main_img {
     width: 100%;
     object-fit: cover;
 }
